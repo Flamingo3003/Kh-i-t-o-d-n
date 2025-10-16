@@ -1,7 +1,7 @@
 # 🤟 Ứng dụng Dịch Ngôn Ngữ Ký Hiệu Qua Hình Ảnh
 
 ## 🚀 1. Giới thiệu dự án
-Dự án nhằm xây dựng một **ứng dụng AI** có khả năng **nhận diện và dịch ngôn ngữ ký hiệu** (Sign Language) thông qua **hình ảnh hoặc video từ camera**, giúp người khiếm thính có thể **giao tiếp dễ dàng hơn với mọi người**.
+Dự án này nhằm xây dựng một **ứng dụng AI** có khả năng **nhận diện và dịch ngôn ngữ ký hiệu** (Sign Language) thông qua **hình ảnh hoặc video từ camera**, giúp người khiếm thính có thể **giao tiếp dễ dàng hơn với mọi người**.
 
 Phiên bản đầu tiên tập trung vào việc:
 - Nhận diện **bảng chữ cái ngôn ngữ ký hiệu ASL (A–Z)**  
@@ -11,10 +11,10 @@ Phiên bản đầu tiên tập trung vào việc:
 ---
 
 ## 🧭 2. Mục tiêu
-- ✅ Nhận dạng ký hiệu tay chính xác từ ảnh/video.  
-- ✅ Dịch ký hiệu sang văn bản.  
-- ✅ Xây dựng giao diện dễ sử dụng.  
-- ✅ Triển khai ứng dụng lên web hoặc desktop.
+- ✅ Nhận dạng ký hiệu tay chính xác từ ảnh/video  
+- ✅ Dịch ký hiệu sang văn bản  
+- ✅ Xây dựng giao diện dễ sử dụng  
+- ✅ Triển khai ứng dụng lên web hoặc desktop  
 
 ---
 
@@ -43,9 +43,7 @@ SignLanguageApp/
 │
 ├── README.md          # Giới thiệu dự án
 └── ROADMAP.md         # Lộ trình phát triển
-
-## 📅 5. Roadmap (tóm tắt)
-
+📅 5. Roadmap (tóm tắt)
  Khởi tạo dự án và repo GitHub
 
  Thu thập dữ liệu ASL
@@ -60,19 +58,31 @@ SignLanguageApp/
 
 👉 Chi tiết xem tại: ROADMAP.md
 
-## 👥 6. Thành viên nhóm (nếu làm nhóm)
+👥 6. Thành viên nhóm (nếu làm nhóm)
 Họ và tên	Vai trò	Công việc
 Nguyễn A	Trưởng nhóm	Huấn luyện mô hình
 Trần B	Lập trình giao diện	Xây dựng app
 Lê C	Quản lý dữ liệu	Xử lý dataset
-## 🧠 7. Hướng phát triển tương lai
 
+🧠 7. Hướng phát triển tương lai
 Hỗ trợ Ngôn ngữ ký hiệu Việt Nam (VSL)
 
 Nhận diện ký hiệu câu phức (không chỉ chữ cái)
 
 Tích hợp AI Chatbot giao tiếp bằng ký hiệu
 
-## ❤️ 8. Lời cảm ơn
+⚙️ 8. Cài đặt & chạy thử
+Yêu cầu:
+Python >= 3.8
 
+Cài thư viện cần thiết:
+
+bash
+Copy code
+pip install -r requirements.txt
+Chạy giao diện:
+bash
+Copy code
+streamlit run app/main.py
+❤️ 9. Lời cảm ơn
 Cảm ơn các nguồn dữ liệu mở như Kaggle, cộng đồng AI for Accessibility, và những người đóng góp giúp dự án phát triển.
