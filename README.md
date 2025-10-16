@@ -31,7 +31,7 @@ Phiên bản đầu tiên tập trung vào việc:
 ---
 
 ## 🗂️ 4. Cấu trúc thư mục
-```bash
+
 SignLanguageApp/
 │
 ├── dataset/           # Bộ dữ liệu ảnh ký hiệu tay
@@ -43,7 +43,10 @@ SignLanguageApp/
 │
 ├── README.md          # Giới thiệu dự án
 └── ROADMAP.md         # Lộ trình phát triển
-📅 5. Roadmap (tóm tắt)
+
+---
+
+## 📅 5. Roadmap (tóm tắt)
  Khởi tạo dự án và repo GitHub
 
  Thu thập dữ liệu ASL
@@ -58,20 +61,26 @@ SignLanguageApp/
 
 👉 Chi tiết xem tại: ROADMAP.md
 
-👥 6. Thành viên nhóm (nếu làm nhóm)
+---
+
+## 👥 6. Thành viên nhóm (nếu làm nhóm)
 Họ và tên	Vai trò	Công việc
 Nguyễn A	Trưởng nhóm	Huấn luyện mô hình
 Trần B	Lập trình giao diện	Xây dựng app
 Lê C	Quản lý dữ liệu	Xử lý dataset
 
-🧠 7. Hướng phát triển tương lai
+---
+
+## 🧠 7. Hướng phát triển tương lai
 Hỗ trợ Ngôn ngữ ký hiệu Việt Nam (VSL)
 
 Nhận diện ký hiệu câu phức (không chỉ chữ cái)
 
 Tích hợp AI Chatbot giao tiếp bằng ký hiệu
 
-⚙️ 8. Cài đặt & chạy thử
+---
+
+## ⚙️ 8. Cài đặt & chạy thử
 Yêu cầu:
 Python >= 3.8
 
@@ -84,5 +93,8 @@ Chạy giao diện:
 bash
 Copy code
 streamlit run app/main.py
-❤️ 9. Lời cảm ơn
+
+---
+
+## ❤️ 9. Lời cảm ơn
 Cảm ơn các nguồn dữ liệu mở như Kaggle, cộng đồng AI for Accessibility, và những người đóng góp giúp dự án phát triển.
